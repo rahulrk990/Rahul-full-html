@@ -1,0 +1,56 @@
+body 
+{
+   background-color: black;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    gap: 10px;
+}
+.item 
+{
+    height: 40px;
+    width: 40px;
+    background-image: linear-gradient(red,yellow,green,blue);
+    border-radius: 50%;
+    transition: all 1s;
+}
+.A:hover 
+{
+    transform: translate(200px, 100px);
+}
+.B:hover 
+{
+    transform: translate(300px, -100px);
+}
+.C:hover 
+{
+    transform: translate(2000px, 1000px);
+}
+.D:hover 
+{
+    transform: translate(250px, 500px);
+}
+.E:hover
+{
+    transform: translate(2000px, 3000px);
+}
+.F:hover 
+{
+    transform: translate(1000px, -100px);
+}
+.G:hover 
+{
+    transform: translate(-200px, 100px);
+}
+.H:hover 
+{
+    transform: translate(-200px, 1000px);
+}
+.I:hover 
+{
+    transform: translate(2000px, -3000px);
+}
+.J:hover 
+{
+    transform: translate(5000px, 400px);
+}

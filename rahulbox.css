@@ -1,0 +1,39 @@
+*
+{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body
+{
+    height: 500px;
+    width: 100%;
+    display: flex;
+    justify-content: start;
+    align-items: end;
+    gap: 40px;
+}
+.item
+{
+    height: 40px;
+    width: 40px;
+    background-image: linear-gradient(red,yellow,green,blue);
+    border-radius: 50%;
+    transition: all 3s;
+}
+.A:hover
+{
+    transform: translate3d(1000px, -1000px, 3000px );
+}
+.B:hover
+{
+    transform: translate(1000px);
+}
+.C:hover
+{
+    transform: translateY(-1000px);
+}
+.D:hover
+{
+    transform: translate3d(1000px, -1000px, 3000px);
+}

@@ -1,0 +1,21 @@
+*
+{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+
+}
+.flex-container
+{
+    background-color: magenta;
+    display: flex;
+    height: 500px;
+    width: 500px; 
+}
+.item
+{
+    height: 50px;
+    width: 50px;
+    border: 1px solid black;
+    background-image: linear-gradient(red, yellow, green);
+}

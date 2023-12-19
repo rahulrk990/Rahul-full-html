@@ -1,0 +1,28 @@
+*
+{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+
+}
+body
+{
+    width: 100%;
+    height: 100vh;
+    justify-content: center;
+    display: flex;
+    align-items: center;
+}
+.imo
+{
+    height: 400px;
+    width: 400px;
+  transition: all 2s; 
+}
+.imo:hover
+{
+ transform: translate(500px);
+ transform: rotate(180deg);
+ transform: scale(3);
+ transform: skew(360deg);
+}

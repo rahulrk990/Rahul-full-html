@@ -1,0 +1,11 @@
+* {
+text-align: right;
+text-decoration: underline;
+text-decoration-color: magenta;
+text-decoration-style:dotted;
+text-decoration-thickness: 14px;
+text-transform: capitalize;
+letter-spacing: 13px;
+word-spacing: 23px;
+line-height: 13px;
+}
